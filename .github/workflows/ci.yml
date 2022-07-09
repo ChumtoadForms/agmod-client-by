@@ -20,7 +20,6 @@ jobs:
       - name: Deploy
         uses: actions/upload-artifact@v2.2.4
         with:
-          name: agmod-vs2019
+          name: agmod-client-by
           path: |
             src/cl_dll/Release/client.dll
-            src/dlls/Releasehl/ag.dll
